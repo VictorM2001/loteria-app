@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+body {
+ 
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e3a7f9, #6399f0);  /* Ajuste del gradiente */
+  color: #ffffff;
+}
+
+.tables-container {
+  background-color: rgba(255, 255, 255, 0.1);  /* Fondo blanco semitransparente */
+  border-radius: 15px;  /* Bordes redondeados */
+  padding: 20px;  /* Espacio interno */
+  margin: 20px;  /* Espacio externo */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra ligera para el contenedor */
+}
+
+.tables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.table {
+  border: 2px solid rgba(255, 255, 255, 0.2);  /* Borde blanco semitransparente */
+  margin: 1cm;  /* Margen de 1 cm entre las tablas */
+  padding: 10px;  /* Asegura que haya espacio interno suficiente */
+  width: fit-content;  /* Ajusta el ancho de la tabla al contenido */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  background-color: rgba(255, 255, 255, 0.2);  /* Fondo blanco semitransparente para la tabla */
+  border-radius: 10px;  /* Bordes redondeados para las tablas */
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.5);  /* Borde blanco semitransparente */
+  padding: 10px;
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 12px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);  /* Fondo blanco semitransparente para las cartas */
+  border-radius: 5px;  /* Bordes redondeados para las cartas */
+}
