@@ -48,3 +48,25 @@ body {
   background-color: rgba(255, 255, 255, 0.1);  /* Fondo blanco semitransparente para las cartas */
   border-radius: 5px;  /* Bordes redondeados para las cartas */
 }
+
+/*Estilo del boton Generar Tablas*/
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo al pasar el cursor */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo del input numero de tablas */
+input {
+  width: 50px;
+  margin-right: 10px;
+  padding: 5px;
+}
